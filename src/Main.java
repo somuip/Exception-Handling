@@ -34,11 +34,15 @@ public class Main {
         }
     }
 
-    public static int fun(int age) {
-        if(age < 18) {
-            throw new RuntimeException("Under age");
-        }
-        return 10;
+//    public static int fun(int age) {
+//        if(age < 18) {
+//            throw new RuntimeException("Under age");
+//        }
+//        return 10;
+//    }
+
+    public static void fun(int age) throws ArithmeticException, ArrayIndexOutOfBoundsException{
+        int i = 5/0;
     }
 }
 
